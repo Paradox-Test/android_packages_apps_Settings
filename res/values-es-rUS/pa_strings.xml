@@ -64,7 +64,7 @@
   <string name="increasing_ring_interval_5seconds">5 segundos</string>
   <string name="increasing_ring_interval_10seconds">10 segundos</string>
   <string name="setting_lockscreen_background">Aplicando fondo de pantalla</string>
-  <string name="pa_version">Versión de ParanoidAndroid</string>
+  <string name="pa_version">Versión de XPerience-AOSP</string>
   <string name="pa_version_default">Desconocida</string>
   <string name="themes_settings_title">Temas</string>
   <string name="themepacks_settings_title">Packs de temas</string>

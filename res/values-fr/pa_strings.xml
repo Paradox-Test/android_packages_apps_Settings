@@ -85,7 +85,7 @@
   <string name="battery_circle">Cercle</string>
   <string name="battery_circle_percent">Cercle &amp; avec pourcentage</string>
   <string name="custom_runtime_warning_title">Attention</string>
-  <string name="custom_runtime_warning_message">ART n\'est pas supporté par l\'équipe de ParanoidAndroid. Ce paramètre est disponible à des fins expérimentales uniquement et peut causer des instabilités, crashs, pertes de données et empêcher le démarrage du téléphone. Allez sur :  &lt;a href=\"http://source.android.com/devices/tech/dalvik/art.html\"&gt;Introducing ART&lt;/a&gt; pour plus d\'informations.&lt;br/&gt;&lt;br/&gt; Merci de ne pas signaler de bugs si vous utilisez ART.&lt;br/&gt;&lt;br/&gt;Etes-vous sûr(e) de vouloir rédemarrer pour changez le moteur d’exécution de <xliff:g id="old" example="libdvm.so">%1$s</xliff:g> à <xliff:g id="new" example="libart.so">%2$s</xliff:g>?</string>
+  <string name="custom_runtime_warning_message">ART n\'est pas supporté par l\'équipe de XPerience-AOSP. Ce paramètre est disponible à des fins expérimentales uniquement et peut causer des instabilités, crashs, pertes de données et empêcher le démarrage du téléphone. Allez sur :  &lt;a href=\"http://source.android.com/devices/tech/dalvik/art.html\"&gt;Introducing ART&lt;/a&gt; pour plus d\'informations.&lt;br/&gt;&lt;br/&gt; Merci de ne pas signaler de bugs si vous utilisez ART.&lt;br/&gt;&lt;br/&gt;Etes-vous sûr(e) de vouloir rédemarrer pour changez le moteur d’exécution de <xliff:g id="old" example="libdvm.so">%1$s</xliff:g> à <xliff:g id="new" example="libart.so">%2$s</xliff:g>?</string>
   <string name="security_maximize_widgets_title">Agrandir les widgets</string>
   <string name="ime_switcher_notify">Notification de choix du clavier</string>
   <string name="ime_switcher_notify_summary">Afficher la notification de choix du clavier</string>
@@ -112,7 +112,7 @@
   <string name="background_result_successful">Arrière-plan modifié</string>
   <string name="background_result_not_successful">Arrière-plan non modifié</string>
   <string name="setting_lockscreen_background">Modification du fond d\'écran</string>
-  <string name="pa_version">Version de ParanoidAndroid</string>
+  <string name="pa_version">Version de XPerience-AOSP</string>
   <string name="pa_version_default">Inconnue</string>
   <string name="themes_settings_title">Thèmes</string>
   <string name="themepacks_settings_title">Packs de thème</string>

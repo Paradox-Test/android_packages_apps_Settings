@@ -111,7 +111,7 @@
   <string name="background_result_successful">Imagem de fundo alterada</string>
   <string name="background_result_not_successful">Imagem de fundo não alterada</string>
   <string name="setting_lockscreen_background">A aplicar a imagem de fundo</string>
-  <string name="pa_version">Versão ParanoidAndroid</string>
+  <string name="pa_version">Versão XPerience-AOSP</string>
   <string name="pa_version_default">Desconhecido</string>
   <string name="themes_settings_title">Temas</string>
   <string name="themepacks_settings_title">Packs de temas</string>

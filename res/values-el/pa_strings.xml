@@ -85,7 +85,7 @@
   <string name="battery_circle">Κύκλος</string>
   <string name="battery_circle_percent">Κύκλος &amp; Ποσοστό</string>
   <string name="custom_runtime_warning_title">Προειδοποίηση</string>
-  <string name="custom_runtime_warning_message">Το ART δεν υποστηρίζεται από το ParanoidAndroid. Η ρύθμιση αυτή περιλαμβάνεται μόνο για πειραματισμό και μπορεί να προκαλέσει αστάθεια, κολλήματα, απώλεια δεδομένων ή να αποτρέψει τη σωστή εκκίνηση της συσκευής σας. Επισκευθείτε το &lt;a href=\"http://source.android.com/devices/tech/dalvik/art.html\"&gt;Introducing ART&lt;/a&gt; για περισσότερες πληροφορίες.&lt;br/&gt;&lt;br/&gt;Σας παρακαλούμε να μην υποβάλλετε αναφορές σφαλμάτων, αν έχετε ενεργοποιημένο το ART ως runtime.&lt;br/&gt;&lt;br/&gt;Είστε βέβαιοι ότι θέλετε να κάνετε επανεκκίνηση για να αλλάξει το runtime από <xliff:g id="old" example="libdvm.so">%1$s</xliff:g> σε <xliff:g id="new" example="libart.so">%2$s</xliff:g>;?</string>
+  <string name="custom_runtime_warning_message">Το ART δεν υποστηρίζεται από το XPerience-AOSP. Η ρύθμιση αυτή περιλαμβάνεται μόνο για πειραματισμό και μπορεί να προκαλέσει αστάθεια, κολλήματα, απώλεια δεδομένων ή να αποτρέψει τη σωστή εκκίνηση της συσκευής σας. Επισκευθείτε το &lt;a href=\"http://source.android.com/devices/tech/dalvik/art.html\"&gt;Introducing ART&lt;/a&gt; για περισσότερες πληροφορίες.&lt;br/&gt;&lt;br/&gt;Σας παρακαλούμε να μην υποβάλλετε αναφορές σφαλμάτων, αν έχετε ενεργοποιημένο το ART ως runtime.&lt;br/&gt;&lt;br/&gt;Είστε βέβαιοι ότι θέλετε να κάνετε επανεκκίνηση για να αλλάξει το runtime από <xliff:g id="old" example="libdvm.so">%1$s</xliff:g> σε <xliff:g id="new" example="libart.so">%2$s</xliff:g>;?</string>
   <string name="security_maximize_widgets_title">Μεγιστοποίηση widget</string>
   <string name="ime_switcher_notify">Ειδοποίηση επιλογέα</string>
   <string name="ime_switcher_notify_summary">Εμφάνιση ειδοποίησης για τον επιλογέα μεθόδου εισαγωγής</string>
@@ -112,7 +112,7 @@
   <string name="background_result_successful">Το φόντο άλλαξε</string>
   <string name="background_result_not_successful">Το φόντο δεν άλλαξε</string>
   <string name="setting_lockscreen_background">Εφαρμογή φόντου</string>
-  <string name="pa_version">Έκδοση ParanoidAndroid</string>
+  <string name="pa_version">Έκδοση XPerience-AOSP</string>
   <string name="pa_version_default">Άγνωστο</string>
   <string name="themes_settings_title">Θέματα</string>
   <string name="themepacks_settings_title">Πακέτα Θεμάτων</string>

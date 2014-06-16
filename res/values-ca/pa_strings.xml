@@ -85,7 +85,7 @@
   <string name="battery_circle">Cercle</string>
   <string name="battery_circle_percent">Cercle &amp; percentatge</string>
   <string name="custom_runtime_warning_title">Advertència</string>
-  <string name="custom_runtime_warning_message">ART no és suportat per l\'equip ParanoidAndroid. Aquesta configuració s\'inclou només per a experimentació i té el potencial de causar inestabilitat, pèrdua de dades o inclús evitar l\'inici correcte del dispositiu. Visiti &lt;a href=\"http://source.android.com/devices/tech/dalvik/art.html\"&gt;Introduint ART&lt;/a&gt; per més informació.&lt;br/&gt;&lt;br/&gt;Li demanem que no presenti informes d\'error si ha habilitat ART com el seu temps d\'execució.&lt;br/&gt;&lt;br/&gt;Segur que vol reiniciar per canviar el temps d\'execució de <xliff:g id="old" example="libdvm.so">%1$s</xliff:g> a <xliff:g id="new" example="libart.so">%2$s</xliff:g>?</string>
+  <string name="custom_runtime_warning_message">ART no és suportat per l\'equip XPerience-AOSP. Aquesta configuració s\'inclou només per a experimentació i té el potencial de causar inestabilitat, pèrdua de dades o inclús evitar l\'inici correcte del dispositiu. Visiti &lt;a href=\"http://source.android.com/devices/tech/dalvik/art.html\"&gt;Introduint ART&lt;/a&gt; per més informació.&lt;br/&gt;&lt;br/&gt;Li demanem que no presenti informes d\'error si ha habilitat ART com el seu temps d\'execució.&lt;br/&gt;&lt;br/&gt;Segur que vol reiniciar per canviar el temps d\'execució de <xliff:g id="old" example="libdvm.so">%1$s</xliff:g> a <xliff:g id="new" example="libart.so">%2$s</xliff:g>?</string>
   <string name="security_maximize_widgets_title">Maximitzar widgets</string>
   <string name="ime_switcher_notify">Notificació del selector</string>
   <string name="ime_switcher_notify_summary">Mostra la notificació de selecció de mètode d\'entrada</string>
@@ -102,6 +102,6 @@
   <string name="low_battery_warning_policy_popup">Només quadre de diàleg</string>
   <string name="low_battery_warning_policy_notif">Només notificació</string>
   <string name="low_battery_warning_policy_sound">Només so</string>
-  <string name="pa_version">Versió de ParanoidAndroid</string>
+  <string name="pa_version">Versió de XPerience-AOSP</string>
   <string name="pa_version_default">Desconegut</string>
 </resources>

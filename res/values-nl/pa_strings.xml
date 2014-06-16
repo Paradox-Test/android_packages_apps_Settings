@@ -85,7 +85,7 @@
   <string name="battery_circle">Cirkel</string>
   <string name="battery_circle_percent">Cirkel &amp; procent</string>
   <string name="custom_runtime_warning_title">Waarschuwing</string>
-  <string name="custom_runtime_warning_message">ART wordt niet ondersteund door ParanoidAndroid team. Deze instelling is opgenomen voor testdoeleinden en kan leiden tot instabiliteit, crashes, gegevensverlies en/of opstartproblemen. Ga naar &lt;a href=\"http://source.android.com/devices/tech/dalvik/art.html\"&gt;Introductie van ART &lt;/a&gt; voor meer informatie.&lt;br/&gt;&lt;br/&gt;Wij verzoeken u geen foutrapporten in te sturen, wanneer ART is ingeschakeld.&lt;br/&gt;&lt;br/&gt;Weet u zeker dat u wilt herstarten om apps niet meer te laten draaien op <xliff:g id="old" example="libdvm.so">%1$s</xliff:g>, maar op <xliff:g id="new" example="libart.so">%2$s</xliff:g>?</string>
+  <string name="custom_runtime_warning_message">ART wordt niet ondersteund door XPerience-AOSP team. Deze instelling is opgenomen voor testdoeleinden en kan leiden tot instabiliteit, crashes, gegevensverlies en/of opstartproblemen. Ga naar &lt;a href=\"http://source.android.com/devices/tech/dalvik/art.html\"&gt;Introductie van ART &lt;/a&gt; voor meer informatie.&lt;br/&gt;&lt;br/&gt;Wij verzoeken u geen foutrapporten in te sturen, wanneer ART is ingeschakeld.&lt;br/&gt;&lt;br/&gt;Weet u zeker dat u wilt herstarten om apps niet meer te laten draaien op <xliff:g id="old" example="libdvm.so">%1$s</xliff:g>, maar op <xliff:g id="new" example="libart.so">%2$s</xliff:g>?</string>
   <string name="security_maximize_widgets_title">Widgets maximaliseren</string>
   <string name="ime_switcher_notify">Melding invoermethode</string>
   <string name="ime_switcher_notify_summary">Melding tonen voor wijzigen invoermethode</string>
@@ -112,7 +112,7 @@
   <string name="background_result_successful">Achtergrond gewijzigd</string>
   <string name="background_result_not_successful">Achtergrond niet gewijzigd</string>
   <string name="setting_lockscreen_background">Achtergrond toepassen</string>
-  <string name="pa_version">ParanoidAndroid versie</string>
+  <string name="pa_version">XPerience-AOSP versie</string>
   <string name="pa_version_default">Onbekend</string>
   <string name="themes_settings_title">Thema\'s</string>
   <string name="themepacks_settings_title">Themapakketten</string>

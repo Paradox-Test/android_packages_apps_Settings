@@ -86,7 +86,7 @@
   <string name="battery_circle">원</string>
   <string name="battery_circle_percent">원 &amp; %</string>
   <string name="custom_runtime_warning_title">경고</string>
-  <string name="custom_runtime_warning_message">ART는 ParanoidAndroid 팀에 의해 지원되지 않습니다. 이 설정은 실험만을 위해 포함 되어 있으며 불안정, 충돌, 데이터 손실을 유발하거나 정상 부팅을 막을 가능성이 있습니다. Art에 관한 자세한 내용을 위해 &lt; a href = \"http://source.android.com/devices/tech/dalvik/art.html\" &gt; 를 방문해 주십시오. &lt; /a &gt; &lt; br / &gt;&lt; br / &gt; ART를 사용 하는 경우 버그 리포트를 제출 하지 말아주십시오. &lt; br / &gt;&lt; br / &gt; <xliff:g id="old" example="libdvm.so"> %1$s </xliff:g>에서 <xliff:g id="new" example="libart.so"> %2$s 로 </xliff:g> 런타임을 변경하기 위해 다시 부팅 하시겠습니까?</string>
+  <string name="custom_runtime_warning_message">ART는 XPerience-AOSP 팀에 의해 지원되지 않습니다. 이 설정은 실험만을 위해 포함 되어 있으며 불안정, 충돌, 데이터 손실을 유발하거나 정상 부팅을 막을 가능성이 있습니다. Art에 관한 자세한 내용을 위해 &lt; a href = \"http://source.android.com/devices/tech/dalvik/art.html\" &gt; 를 방문해 주십시오. &lt; /a &gt; &lt; br / &gt;&lt; br / &gt; ART를 사용 하는 경우 버그 리포트를 제출 하지 말아주십시오. &lt; br / &gt;&lt; br / &gt; <xliff:g id="old" example="libdvm.so"> %1$s </xliff:g>에서 <xliff:g id="new" example="libart.so"> %2$s 로 </xliff:g> 런타임을 변경하기 위해 다시 부팅 하시겠습니까?</string>
   <string name="security_maximize_widgets_title">위젯 최대화</string>
   <string name="ime_switcher_notify">알림 선택기</string>
   <string name="ime_switcher_notify_summary">입력방법 선택기 알림 표시</string>
@@ -113,7 +113,7 @@
   <string name="background_result_successful">배경화면이 변경되었습니다.</string>
   <string name="background_result_not_successful">배경화면이 변경되지 못했습니다.</string>
   <string name="setting_lockscreen_background">배경화면 설정</string>
-  <string name="pa_version">ParanoidAndroid 버전</string>
+  <string name="pa_version">XPerience-AOSP 버전</string>
   <string name="pa_version_default">알수없음</string>
   <string name="themes_settings_title">테마</string>
   <string name="themepacks_settings_title">테마 팩</string>

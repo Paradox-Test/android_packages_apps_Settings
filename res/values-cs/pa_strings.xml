@@ -85,7 +85,7 @@
   <string name="battery_circle">Kruh</string>
   <string name="battery_circle_percent">Kruh a procenta</string>
   <string name="custom_runtime_warning_title">Varování</string>
-  <string name="custom_runtime_warning_message">ART není podporován týmem ParanoidAndroid. Toto nastavení je zahrnuto pouze pro experimentální účely a může způsobovat nestabilitu, pády, ztráty dat nebo chyby při spouštění vašeho zařízení. Pro více informací navštivte stránku &lt;a href=\"http://source.android.com/devices/tech/dalvik/art.html\"&gt;Seznámení s běhovým prostředím ART&lt;/a&gt;.&lt;br/&gt;&lt;br/&gt;Žádáme vás, nepodávejte hlášení o chybách, pokud jste povolili ART jako běhové prostředí.&lt;br/&gt;&lt;br/&gt;Jste si jisti, že chcete restartovat zařízení a změnit runtime z <xliff:g id="old" example="libdvm.so">%1$s</xliff:g> na <xliff:g id="new" example="libart.so">%2$s</xliff:g>?</string>
+  <string name="custom_runtime_warning_message">ART není podporován týmem XPerience-AOSP. Toto nastavení je zahrnuto pouze pro experimentální účely a může způsobovat nestabilitu, pády, ztráty dat nebo chyby při spouštění vašeho zařízení. Pro více informací navštivte stránku &lt;a href=\"http://source.android.com/devices/tech/dalvik/art.html\"&gt;Seznámení s běhovým prostředím ART&lt;/a&gt;.&lt;br/&gt;&lt;br/&gt;Žádáme vás, nepodávejte hlášení o chybách, pokud jste povolili ART jako běhové prostředí.&lt;br/&gt;&lt;br/&gt;Jste si jisti, že chcete restartovat zařízení a změnit runtime z <xliff:g id="old" example="libdvm.so">%1$s</xliff:g> na <xliff:g id="new" example="libart.so">%2$s</xliff:g>?</string>
   <string name="security_maximize_widgets_title">Maximalizovat widgety</string>
   <string name="ime_switcher_notify">Oznámení metody zadávání</string>
   <string name="ime_switcher_notify_summary">Při psaní zobrazovat systémová upozornění s výběrem metody zadávání</string>
@@ -112,7 +112,7 @@
   <string name="background_result_successful">Pozadí změněno</string>
   <string name="background_result_not_successful">Pozadí nebylo změněno</string>
   <string name="setting_lockscreen_background">Nastavuji pozadí</string>
-  <string name="pa_version">Verze ParanoidAndroid</string>
+  <string name="pa_version">Verze XPerience-AOSP</string>
   <string name="pa_version_default">Neznámá</string>
   <string name="themes_settings_title">Témata</string>
   <string name="themepacks_settings_title">Balíky témat</string>

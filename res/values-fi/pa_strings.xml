@@ -85,7 +85,7 @@
   <string name="battery_circle">Ympyrä</string>
   <string name="battery_circle_percent">Ympyrä &amp; prosentti</string>
   <string name="custom_runtime_warning_title">Varoitus</string>
-  <string name="custom_runtime_warning_message">ParanoidAndroid tiimi ei tue ART-ympäristöä. Tämä asetus on vain kokeiluja varten ja saattaa aiheuttaa epävakautta, kaatumisia, tietojen katoamista ja estää laitteen käynnistymisen. Lue lisää: &lt;a href=\"http://source.android.com/devices/tech/dalvik/art.html\"&gt;Introducing ART&lt;/a&gt;.&lt;br/&gt;&lt;br/&gt;Pyydämme, ettet lähetä virheraportteja jos valitset ART-ympäristön.&lt;br/&gt;&lt;br/&gt;Oletko varma että haluat vaihtaa suoritusympäristön <xliff:g id="old" example="libdvm.so">%1$s</xliff:g>-<xliff:g id="new" example="libart.so">%2$s</xliff:g>?</string>
+  <string name="custom_runtime_warning_message">XPerience-AOSP tiimi ei tue ART-ympäristöä. Tämä asetus on vain kokeiluja varten ja saattaa aiheuttaa epävakautta, kaatumisia, tietojen katoamista ja estää laitteen käynnistymisen. Lue lisää: &lt;a href=\"http://source.android.com/devices/tech/dalvik/art.html\"&gt;Introducing ART&lt;/a&gt;.&lt;br/&gt;&lt;br/&gt;Pyydämme, ettet lähetä virheraportteja jos valitset ART-ympäristön.&lt;br/&gt;&lt;br/&gt;Oletko varma että haluat vaihtaa suoritusympäristön <xliff:g id="old" example="libdvm.so">%1$s</xliff:g>-<xliff:g id="new" example="libart.so">%2$s</xliff:g>?</string>
   <string name="security_maximize_widgets_title">Suurenna widgetit</string>
   <string name="ime_switcher_notify">Syöttötavan ilmoitus</string>
   <string name="ime_switcher_notify_summary">Näytä syöttötavan valitsinilmoitus</string>
@@ -112,7 +112,7 @@
   <string name="background_result_successful">Taustakuva vaihdettu</string>
   <string name="background_result_not_successful">Taustakuvaa ei vaihdettu</string>
   <string name="setting_lockscreen_background">Asetetaan taustakuvaa</string>
-  <string name="pa_version">ParanoidAndroid versio</string>
+  <string name="pa_version">XPerience-AOSP versio</string>
   <string name="pa_version_default">Tuntematon</string>
   <string name="themes_settings_title">Teemat</string>
   <string name="themepacks_settings_title">Teemapaketit</string>

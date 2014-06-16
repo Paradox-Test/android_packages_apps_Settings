@@ -85,7 +85,7 @@
   <string name="battery_circle">מעגל</string>
   <string name="battery_circle_percent">מעגל ואחוזים</string>
   <string name="custom_runtime_warning_title">אזהרה</string>
-  <string name="custom_runtime_warning_message">ART לא נתמך כראוי על ידי צוות ParanoidAndroid. הגדרה זו קיימת רק לניסוי בלבד ויש סיכוי לאי יציבות, קריסות, איבוד מידע או מניעת אתחול נכון של המכשיר. בקר ב-&lt;a href=\"http://source.android.com/devices/tech/dalvik/art.html\"&gt;הצגת ART&lt;/a&gt; עבור מידע נוסף.&lt;br/&gt;&lt;br/&gt;אנחנו מבקשים שלא תדווח על באגים אם אתה משתמש ב-ART.&lt;br/&gt;&lt;br/&gt;האם אתה בטוח שאתה רוצה להחליף מ-<xliff:g id="old" example="libdvm.so">%1$s</xliff:g> ל-<xliff:g id="new" example="libart.so">%2$s</xliff:g>?</string>
+  <string name="custom_runtime_warning_message">ART לא נתמך כראוי על ידי צוות XPerience-AOSP. הגדרה זו קיימת רק לניסוי בלבד ויש סיכוי לאי יציבות, קריסות, איבוד מידע או מניעת אתחול נכון של המכשיר. בקר ב-&lt;a href=\"http://source.android.com/devices/tech/dalvik/art.html\"&gt;הצגת ART&lt;/a&gt; עבור מידע נוסף.&lt;br/&gt;&lt;br/&gt;אנחנו מבקשים שלא תדווח על באגים אם אתה משתמש ב-ART.&lt;br/&gt;&lt;br/&gt;האם אתה בטוח שאתה רוצה להחליף מ-<xliff:g id="old" example="libdvm.so">%1$s</xliff:g> ל-<xliff:g id="new" example="libart.so">%2$s</xliff:g>?</string>
   <string name="security_maximize_widgets_title">הרחב ווידג\'טים</string>
   <string name="ime_switcher_notify">התראת בחירת שיטת קלט</string>
   <string name="ime_switcher_notify_summary">הצגת התראה עבור הגדרת שיטת קלט</string>
@@ -112,7 +112,7 @@
   <string name="background_result_successful">רקע השתנה</string>
   <string name="background_result_not_successful">רקע לא השתנה</string>
   <string name="setting_lockscreen_background">מחיל רקע</string>
-  <string name="pa_version">גירסת ParanoidAndroid</string>
+  <string name="pa_version">גירסת XPerience-AOSP</string>
   <string name="pa_version_default">לא ידוע</string>
   <string name="themes_settings_title">ערכות נושא</string>
   <string name="themepacks_settings_title">ערכות נושא</string>

@@ -85,7 +85,7 @@
   <string name="battery_circle">Lingkaran</string>
   <string name="battery_circle_percent">Lingkaran &amp; persentase</string>
   <string name="custom_runtime_warning_title">Peringatan</string>
-  <string name="custom_runtime_warning_message">ART tidak didukung oleh tim ParanoidAndroid. Pengaturan ini disediakan hanya untuk keperluan uji coba dan dapat menimbulkan ketidakstabilan, crash, kehilangan data atau menghambat boot yang sesuai pada perangkat Anda. Silakan kunjungi &lt;a href=\"http://source.android.com/devices/tech/dalvik/art.html\"&gt;Introducing ART&lt;/a&gt; untuk informasi lebih lanjut.&lt;br/&gt;&lt;br/&gt;Kami mohon agar Anda tidak melaporkan bug jika Anda telah mengaktifkan ART sebagai runtime Anda.&lt;br/&gt;&lt;br/&gt;Apakah Anda yakin ingin melakukan mulai ulang untuk mengganti runtime dari <xliff:g id="old" example="libdvm.so">%1$s</xliff:g> menjadi <xliff:g id="new" example="libart.so">%2$s</xliff:g>?</string>
+  <string name="custom_runtime_warning_message">ART tidak didukung oleh tim XPerience-AOSP. Pengaturan ini disediakan hanya untuk keperluan uji coba dan dapat menimbulkan ketidakstabilan, crash, kehilangan data atau menghambat boot yang sesuai pada perangkat Anda. Silakan kunjungi &lt;a href=\"http://source.android.com/devices/tech/dalvik/art.html\"&gt;Introducing ART&lt;/a&gt; untuk informasi lebih lanjut.&lt;br/&gt;&lt;br/&gt;Kami mohon agar Anda tidak melaporkan bug jika Anda telah mengaktifkan ART sebagai runtime Anda.&lt;br/&gt;&lt;br/&gt;Apakah Anda yakin ingin melakukan mulai ulang untuk mengganti runtime dari <xliff:g id="old" example="libdvm.so">%1$s</xliff:g> menjadi <xliff:g id="new" example="libart.so">%2$s</xliff:g>?</string>
   <string name="security_maximize_widgets_title">Maksimalkan widget</string>
   <string name="ime_switcher_notify">Pemilih notifikasi</string>
   <string name="ime_switcher_notify_summary">Tampilkan notifikasi pilihan masukan</string>
@@ -112,7 +112,7 @@
   <string name="background_result_successful">latar belakang diubah</string>
   <string name="background_result_not_successful">Latar belakang tidak dirubah</string>
   <string name="setting_lockscreen_background">Menerapkan latar belakang</string>
-  <string name="pa_version">Versi ParanoidAndroid</string>
+  <string name="pa_version">Versi XPerience-AOSP</string>
   <string name="pa_version_default">Tidak dikenal</string>
   <string name="themes_settings_title">Tema</string>
   <string name="themepacks_settings_title">Paket tema</string>

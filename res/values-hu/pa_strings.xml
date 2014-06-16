@@ -85,7 +85,7 @@
   <string name="battery_circle">Kör</string>
   <string name="battery_circle_percent">Kör és százalék</string>
   <string name="custom_runtime_warning_title">Figyelmeztetés</string>
-  <string name="custom_runtime_warning_message">A ParanoidAndroid nem támogatja az ART futtatási környezetet. Ez a beállítás csak kísérleti jelleggel van jelen a rendszerben. Instabilitást, rendszerösszeomlást, adatvesztést okozhat, vagy akár elindíthatatlanná teheti az eszközt. Látogasson el az &lt;a href=\"http://source.android.com/devices/tech/dalvik/art.html\"&gt;Introducing ART&lt;/a&gt; oldalra a további információkért.&lt;br/&gt;&lt;br/&gt;Kérjük, ne küldjön hibabejelentést, amennyiben az ART futtatási környezet engedélyezve van.&lt;br/&gt;&lt;br/&gt;Biztosan újra kívánja indítani az eszközt és a jelenlegi futtatási környezetet <xliff:g id="old" example="libdvm.so">%1$s</xliff:g>-ról <xliff:g id="new" example="libart.so">%2$s</xliff:g>-ra cseréli?</string>
+  <string name="custom_runtime_warning_message">A XPerience-AOSP nem támogatja az ART futtatási környezetet. Ez a beállítás csak kísérleti jelleggel van jelen a rendszerben. Instabilitást, rendszerösszeomlást, adatvesztést okozhat, vagy akár elindíthatatlanná teheti az eszközt. Látogasson el az &lt;a href=\"http://source.android.com/devices/tech/dalvik/art.html\"&gt;Introducing ART&lt;/a&gt; oldalra a további információkért.&lt;br/&gt;&lt;br/&gt;Kérjük, ne küldjön hibabejelentést, amennyiben az ART futtatási környezet engedélyezve van.&lt;br/&gt;&lt;br/&gt;Biztosan újra kívánja indítani az eszközt és a jelenlegi futtatási környezetet <xliff:g id="old" example="libdvm.so">%1$s</xliff:g>-ról <xliff:g id="new" example="libart.so">%2$s</xliff:g>-ra cseréli?</string>
   <string name="security_maximize_widgets_title">Teljes méretű widgetek</string>
   <string name="ime_switcher_notify">Beviteli mód választó értesítés</string>
   <string name="ime_switcher_notify_summary">Beviteli mód választó megjelenítése az értesítési sávon</string>
@@ -112,7 +112,7 @@
   <string name="background_result_successful">A háttérkép megváltozott</string>
   <string name="background_result_not_successful">A háttérkép nem változott meg</string>
   <string name="setting_lockscreen_background">Háttérkép használata</string>
-  <string name="pa_version">ParanoidAndroid verzió</string>
+  <string name="pa_version">XPerience-AOSP verzió</string>
   <string name="pa_version_default">Ismeretlen</string>
   <string name="themes_settings_title">Témák</string>
   <string name="themepacks_settings_title">Témacsomagok</string>

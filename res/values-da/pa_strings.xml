@@ -111,7 +111,7 @@
   <string name="background_result_successful">Baggrund ændret</string>
   <string name="background_result_not_successful">Baggrund ikke ændret</string>
   <string name="setting_lockscreen_background">Anvender baggrund</string>
-  <string name="pa_version">ParanoidAndroid version</string>
+  <string name="pa_version">XPerience-AOSP version</string>
   <string name="pa_version_default">Ukendt</string>
   <string name="themes_settings_title">Temaer</string>
   <string name="themepacks_settings_title">Temapakker</string>
