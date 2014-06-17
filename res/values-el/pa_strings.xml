@@ -85,10 +85,6 @@
   <string name="battery_circle">Κύκλος</string>
   <string name="battery_circle_percent">Κύκλος &amp; Ποσοστό</string>
   <string name="custom_runtime_warning_title">Προειδοποίηση</string>
-<<<<<<< HEAD
-  <string name="custom_runtime_warning_message">Το ART δεν υποστηρίζεται από το XPerience-AOSP. Η ρύθμιση αυτή περιλαμβάνεται μόνο για πειραματισμό και μπορεί να προκαλέσει αστάθεια, κολλήματα, απώλεια δεδομένων ή να αποτρέψει τη σωστή εκκίνηση της συσκευής σας. Επισκευθείτε το &lt;a href=\"http://source.android.com/devices/tech/dalvik/art.html\"&gt;Introducing ART&lt;/a&gt; για περισσότερες πληροφορίες.&lt;br/&gt;&lt;br/&gt;Σας παρακαλούμε να μην υποβάλλετε αναφορές σφαλμάτων, αν έχετε ενεργοποιημένο το ART ως runtime.&lt;br/&gt;&lt;br/&gt;Είστε βέβαιοι ότι θέλετε να κάνετε επανεκκίνηση για να αλλάξει το runtime από <xliff:g id="old" example="libdvm.so">%1$s</xliff:g> σε <xliff:g id="new" example="libart.so">%2$s</xliff:g>;?</string>
-=======
->>>>>>> af4b6d9a00f52031e78e62dbc1a439e578f5117c
   <string name="security_maximize_widgets_title">Μεγιστοποίηση widget</string>
   <string name="ime_switcher_notify">Ειδοποίηση επιλογέα</string>
   <string name="ime_switcher_notify_summary">Εμφάνιση ειδοποίησης για τον επιλογέα μεθόδου εισαγωγής</string>
