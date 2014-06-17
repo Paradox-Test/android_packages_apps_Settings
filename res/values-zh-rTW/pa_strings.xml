@@ -105,6 +105,7 @@
   <string name="blacklist_button_title">黑名單</string>
   <string name="peek_blacklist_label">加入Peek黑名單</string>
   <string name="floating_blacklist_label">加入懸浮模式黑名單</string>
+  <string name="hover_blacklist_label">加入 Hover 黑名單</string>
   <string name="lockscreen_background">背景</string>
   <string name="lockscreen_background_style_title">鎖定螢幕背景</string>
   <string name="background_default">預設背景</string>

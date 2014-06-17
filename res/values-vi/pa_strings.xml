@@ -103,8 +103,9 @@
   <string name="low_battery_warning_policy_notif">Chỉ hiện thông báo</string>
   <string name="low_battery_warning_policy_sound">Chỉ âm thanh</string>
   <string name="blacklist_button_title">Danh sách đen</string>
-  <string name="peek_blacklist_label">Danh sách ứng dụng loại trừ của Peek</string>
-  <string name="floating_blacklist_label">Danh sách ứng dụng loại trừ của chế độ Float</string>
+  <string name="peek_blacklist_label">Tắt thông báo dạng Peek với ứng dụng này</string>
+  <string name="floating_blacklist_label">Không sử dụng chế độ cửa sổ nổi với ứng dụng này</string>
+  <string name="hover_blacklist_label">Tắt thông báo dạng Hover với ứng dụng này</string>
   <string name="lockscreen_background">Hình nền</string>
   <string name="lockscreen_background_style_title">Hình nền màn hình khóa</string>
   <string name="background_default">Hình nền mặc định
