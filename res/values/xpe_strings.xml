@@ -28,4 +28,11 @@
     <!-- About device screen, CPU and RAM info. -->
     <string name="cpu_info">CPU</string>
     <string name="mem_info">Memory</string>
+    
+        <!-- Change Log strings -->
+    <string name="changelog_title">View changelog</string>
+    <string name="changelog_loading">Loading changelog...</string>
+    <string name="changelog_error">Unable to load changelog</string>
+    <string name="changelog_unknown">Unknown</string>
+    <string name="changelog_version">Version</string>
 </resources>
