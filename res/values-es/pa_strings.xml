@@ -71,7 +71,6 @@
   <string name="increasing_ring_interval_10seconds">10 segundos</string>
   <string name="volume_buttons_category">Botones de volumen</string>
   <string name="volume_wake_title">Despertar con botones de volumen</string>
-  <string name="volume_wake_summary">Presionar cualquier botón de volumen desbloqueará su dispositivo</string>
   <string name="see_through_title">Ver a través</string>
   <string name="see_through_summary">Muestra el contenido detrás de la pantalla de bloqueo. Tu información podría ser vista por los que te rodean</string>
   <string name="appops_settings_title">Privacidad de las aplicaciones</string>
