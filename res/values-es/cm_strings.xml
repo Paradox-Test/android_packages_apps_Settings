@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2012-2013 The CyanogenMod Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Hardware keys -->
+    <string name="button_settings">Botones</string>
+    <string name="hardware_keys_power_key_title">Botón de apagado</string>
+    <string name="power_end_call_title">Finalizar llamada</string>
+    <string name="power_end_call_summary">Presionar el botón de apagado finalizará la llamada actual</string>
+    <string name="hardware_keys_volume_keys_title">Botones de volumen</string>
+    <string name="button_wake_title">Despertar</string>
+    <string name="volume_wake_summary">Presionar cualquiera de los botones de volumen despertará tu dispositivo</string>
+    <string name="volbtn_cursor_control_title">Controlar cursor del teclado</string>
+    <string name="volbtn_cursor_control_on">Volumen arriba/abajo mueve el cursor hacia la izquierda/derecha</string>
+    <string name="volbtn_cursor_control_on_reverse">VVolumen arriba/abajo mueve el cursor hacia la derecha/izquierda</string>
+    <string name="swap_volume_buttons_title">Reorientar botones de volumen</string>
+    <string name="swap_volume_buttons_summary">Invertir los botones de volumen cuando se rota la pantalla</string>
+
+    <!--  Other device settings -->
+    <string name="more_device_controls_title">Más\u2026</string>
+    <string name="more_device_settings_title">Otras opciones del dispositivo</string>
+    <string name="display_calibration_title">Calibración de pantalla</string>
+    <string name="sensors_motors_title">Sensores &amp; motores</string>
+
+    <!-- Hardware tunables - Color calibration -->
+    <string name="color_calibration_title">Calibración de color</string>
+    <string name="color_calibration_summary">Calibra los colores de la pantalla</string>
+    <string name="color_red_title">Rojo</string>
+    <string name="color_green_title">Verde</string>
+    <string name="color_blue_title">Azul</string>
+
+    <!-- Hardware tunables - Vibrator intensity -->
+    <string name="vibrator_intensity_title">Intensidad del vibrador</string>
+
+    <!-- Category title for headset specific Settings.
+         [CHAR LIMIT=40] -->
+    <string name="headset_category_title">Auriculares</string>
+
+    <!-- Launch music player when headset is connected -->
+    <string name="headset_connect_player_title">Abrir aplicación de música</string>
+    <string name="headset_connect_player_summary">Abre la aplicación de música estándar cuando se conectan auriculares</string>
+</resources>
