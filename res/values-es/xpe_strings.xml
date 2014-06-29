@@ -22,4 +22,7 @@
     <string name="changelog_unknown">Desconocido</string>
     <string name="changelog_version">Versión</string>
     
+        <!-- Network speed -->
+    <string name="show_network_speed">Indicador de velocidad de conexion</string>
+    <string name="show_network_speed_summary">Mostrar Velocidad de conexion en la barra de estado</string>
 </resources>
