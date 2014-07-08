@@ -99,6 +99,7 @@ import com.android.settings.location.LocationSettings;
 import com.android.settings.net.MobileDataEnabler;
 import com.android.settings.nfc.AndroidBeam;
 import com.android.settings.nfc.PaymentSettings;
+import com.android.settings.PALP.LegacyParts;
 import com.android.settings.print.PrintJobSettingsFragment;
 import com.android.settings.print.PrintServiceSettingsFragment;
 import com.android.settings.print.PrintSettingsFragment;
@@ -476,7 +477,8 @@ public class Settings extends PreferenceActivity
         PaymentSettings.class.getName(),
         ApnSettings.class.getName(),
         KeyboardLayoutPickerFragment.class.getName(),
-        ThemeSettings.class.getName()
+        ThemeSettings.class.getName(),
+        LegacyParts.class.getName()
     };
 
     @Override
@@ -734,10 +736,6 @@ public class Settings extends PreferenceActivity
                     }
                 }
             } else if (id == R.id.development_settings) {
-                if (!showDev) {
-                    target.remove(i);
-                }
-            } else if (id == R.id.performance_settings) {
                 if (!showDev) {
                     target.remove(i);
                 }
