@@ -22,4 +22,8 @@
     <string name="changelog_unknown">Desconocido</string>
     <string name="changelog_version">Versión</string>
     
+ <!--XPERIENCE INFO-->
+ <string name="builder_info_title">Desarrollador</string>
+ <string name="buildstatus"> Estado de Compilación </string>
+ <string name="build_status_info"> Muestra el estado de la rom, si es una version NIGHTLY o una MR(RELEASE) </string>
 </resources>

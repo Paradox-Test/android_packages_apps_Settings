@@ -17,6 +17,11 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         android:title="@string/about_settings">
 
+	<!--XPERIENCE HEADER-->
+	 <PreferenceScreen android:key="xpe_logo"
+			   android:layout="@layout/logo_xpe" />
+
+
         <PreferenceScreen android:key="paranoidota_settings"
                 android:title="@string/system_update_settings_list_item_title" 
                 android:summary="@string/system_update_settings_list_item_summary">
@@ -155,10 +160,21 @@
                 android:title="@string/build_number"
                 android:summary="@string/device_info_default"/>
 
+	 <!--XPerience Status-->
+ 	<Preference android:key="build_status"
+		    style="?android:preferenceInformationStyle"
+                    android:title="@string/buildstatus"
+                    android:summary="@string/device_info_default"/>
+
         <!-- SELinux status information -->
         <Preference android:key="selinux_status"
                 style="?android:preferenceInformationStyle"
                 android:title="@string/selinux_status"
                 android:summary="@string/selinux_status_enforcing"/>
+
+	 <!-- Builder info (klozz) -->
+ 	<Preference android:key="TeamMEX_xda"
+		    style="?android:preferenceInformationStyle"
+                    android:title="@string/builder_info_title"/>
 
 </PreferenceScreen>
