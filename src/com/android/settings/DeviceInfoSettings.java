@@ -79,7 +79,8 @@ public class DeviceInfoSettings extends RestrictedSettingsFragment {
     private static final String KEY_DEVICE_CPU = "device_cpu";
     private static final String KEY_DEVICE_MEMORY = "device_memory";
     private static final String KEY_BUILD_STATUS = "build_status";
-    private static finar String KEY_MOD_KLOZZ = "TeamMEX_xda";
+    private static final String KEY_MOD_KLOZZ = "TeamMEX_xda";
+    private static final String KEY_GPU = "gpu";
 
     static final int TAPS_TO_BE_A_DEVELOPER = 7;
 
@@ -113,6 +114,7 @@ public class DeviceInfoSettings extends RestrictedSettingsFragment {
         findPreference(KEY_PA_VERSION).setEnabled(true);
         setValueSummary(KEY_PA_VERSION, "ro.xpe.version");
 	setValueSummary(KEY_BUILD_STATUS , "ro.build.status");
+	setValueSummary(KEY_GPU , "ro.harwdware.gpu");
 	setStringSummary(KEY_MOD_KLOZZ, "Carlos Jesús (Klozz-TeamMEX@XDA) ");
 
         if (!SELinux.isSELinuxEnabled()) {
