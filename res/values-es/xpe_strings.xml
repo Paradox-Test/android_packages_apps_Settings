@@ -26,4 +26,8 @@
  <string name="builder_info_title">Desarrollador</string>
  <string name="buildstatus"> Estado de Compilación </string>
  <string name="build_status_info"> Muestra el estado de la rom, si es una version NIGHTLY o una MR(RELEASE) </string>
+
+    <!-- AOSPA Legacy Parts -->
+    <string name="palp_settings_title">Ajustes XPerience™</string>
+    <string name="palp_settings_general_title">General</string>
 </resources>

@@ -112,7 +112,7 @@
   <string name="background_result_successful">Lo sfondo è stato modificato</string>
   <string name="background_result_not_successful">Lo sfondo non è stato modificato</string>
   <string name="setting_lockscreen_background">Applicazione sfondo</string>
-  <string name="pa_version">Versione XPerience-AOSP</string>
+  <string name="pa_version">Versione XPerience™-AOSP</string>
   <string name="pa_version_default">Sconosciuta</string>
   <string name="themes_settings_title">Temi</string>
   <string name="themepacks_settings_title">Pacchetti Temi</string>

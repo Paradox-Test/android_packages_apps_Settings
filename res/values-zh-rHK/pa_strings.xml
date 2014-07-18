@@ -85,7 +85,7 @@
   <string name="battery_circle">環形</string>
   <string name="battery_circle_percent">環形與百分比</string>
   <string name="custom_runtime_warning_title">警告</string>
-  <string name="custom_runtime_warning_message">XPerience-AOSP 官方並不支援 ART 模式。此選項僅為實驗性質，有不穩定、當機、數據遺失或導致不能關機的可能。請瀏覽 &lt;a href=\"http://source.android.com/devices/tech/dalvik/art.html\"&gt;Introducing ART&lt;/a&gt; 了解更多訊息。&lt;br/&gt;&lt;br/&gt;如果您啟用 ART 執行階段，請不要傳送錯誤報告。&lt;br/&gt;&lt;br/&gt;  您確定要將 <xliff:g id="old" example="libdvm.so">%1$s</xliff:g> 改為 <xliff:g id="new" example="libart.so">%2$s</xliff:g> 並重新啟動嗎？</string>
+  <string name="custom_runtime_warning_message">XPerience™-AOSP 官方並不支援 ART 模式。此選項僅為實驗性質，有不穩定、當機、數據遺失或導致不能關機的可能。請瀏覽 &lt;a href=\"http://source.android.com/devices/tech/dalvik/art.html\"&gt;Introducing ART&lt;/a&gt; 了解更多訊息。&lt;br/&gt;&lt;br/&gt;如果您啟用 ART 執行階段，請不要傳送錯誤報告。&lt;br/&gt;&lt;br/&gt;  您確定要將 <xliff:g id="old" example="libdvm.so">%1$s</xliff:g> 改為 <xliff:g id="new" example="libart.so">%2$s</xliff:g> 並重新啟動嗎？</string>
   <string name="security_maximize_widgets_title">最大化小工具</string>
   <string name="ime_switcher_notify">選擇器通知</string>
   <string name="ime_switcher_notify_summary">顯示輸入法選擇器通知</string>
@@ -113,7 +113,7 @@
   <string name="background_result_successful">背景已更改</string>
   <string name="background_result_not_successful">背景未更改</string>
   <string name="setting_lockscreen_background">正在套用背景</string>
-  <string name="pa_version">XPerience-AOSP 版本</string>
+  <string name="pa_version">XPerience™-AOSP 版本</string>
   <string name="pa_version_default">未知</string>
   <string name="themes_settings_title">主題</string>
   <string name="themepacks_settings_title">主題包</string>

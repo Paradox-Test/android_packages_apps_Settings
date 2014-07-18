@@ -112,7 +112,7 @@
   <string name="background_result_successful">Taustakuva vaihdettu</string>
   <string name="background_result_not_successful">Taustakuvaa ei vaihdettu</string>
   <string name="setting_lockscreen_background">Asetetaan taustakuvaa</string>
-  <string name="pa_version">XPerience-AOSP versio</string>
+  <string name="pa_version">XPerience™-AOSP versio</string>
   <string name="pa_version_default">Tuntematon</string>
   <string name="themes_settings_title">Teemat</string>
   <string name="themepacks_settings_title">Teemapaketit</string>

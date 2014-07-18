@@ -112,7 +112,7 @@
   <string name="background_result_successful">Hintergrund wurde geändert</string>
   <string name="background_result_not_successful">Hintergrund wurde nicht geändert</string>
   <string name="setting_lockscreen_background">Wende Hintergrund an</string>
-  <string name="pa_version">XPerience-AOSP Version</string>
+  <string name="pa_version">XPerience™-AOSP Version</string>
   <string name="pa_version_default">Unbekannt</string>
   <string name="themes_settings_title">Themen</string>
   <string name="themepacks_settings_title">Themen Pakete</string>

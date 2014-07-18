@@ -101,7 +101,7 @@
   <string name="low_battery_warning_policy_popup">Tikai uznirstošā loga paziņojums</string>
   <string name="low_battery_warning_policy_notif">Tikai paziņojums</string>
   <string name="low_battery_warning_policy_sound">Tikai skaņa</string>
-  <string name="pa_version">XPerience-AOSP versija</string>
+  <string name="pa_version">XPerience™-AOSP versija</string>
   <string name="blacklist_button_title">Melnais saraksts</string>
   <string name="peek_blacklist_label">Melnais saraksts no Peek</string>
   <string name="floating_blacklist_label">Melnais saraksts no Peldošā režīma</string>
