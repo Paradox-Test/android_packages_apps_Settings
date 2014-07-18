@@ -40,4 +40,6 @@
  <string name="builder_info_title">Developer</string>
  <string name="buildstatus"> Build Status </string>
  <string name="build_status_info"> Displays the status of the rom, if NIGHTLY or is a MR version (Release) </string>
+
+ <string name="header_category_interface">XPerience™</string>
 </resources>
