@@ -91,6 +91,15 @@
         android:icon="@drawable/ic_settings_system"
         android:fragment="com.android.settings.PALP.LegacyParts" />
 
+    <!-- Theme chooser -->
+    <header
+        settings:includeXmlForSearch="@xml/theme_settings"
+        android:id="@+id/theme_settings"
+        android:title="@string/themes_settings_title"
+        android:breadCrumbTitle="@string/themes_settings_title"
+        android:fragment="com.android.settings.ThemeSettings"
+        android:icon="@drawable/prd_ic_themepacks" />
+
     <!-- DEVICE -->
     <header android:id="@+id/device_section"
         android:title="@string/header_category_device" />
@@ -163,15 +172,6 @@
     <!-- PERSONAL -->
     <header android:id="@+id/personal_section"
         android:title="@string/header_category_personal" />
-
-    <!-- Theme chooser -->
-    <header
-        settings:includeXmlForSearch="@xml/theme_settings"
-        android:id="@+id/theme_settings"
-        android:title="@string/themes_settings_title"
-        android:breadCrumbTitle="@string/themes_settings_title"
-        android:fragment="com.android.settings.ThemeSettings"
-        android:icon="@drawable/prd_ic_themepacks" />
 
     <!-- Location -->
     <header
