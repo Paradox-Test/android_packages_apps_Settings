@@ -40,7 +40,7 @@ import java.util.List;
 
 //CM classes
 import com.android.settings.cyanogenmod.ButtonSettings;
-import com.android.settings.cyanogenmod.PerformanceSettings;
+//import com.android.settings.cyanogenmod.PerformanceSettings;
 
 //AOSPA-Legacy classes
 import com.android.settings.PALP.DisplaySettingsLP;
@@ -103,7 +103,7 @@ public class LegacyParts extends SettingsPreferenceFragment {
             frags[0] = new GeneralLP(); // Display Settings (Legacy Parts)
             frags[1] = new DisplaySettingsLP(); // Display Settings (Legacy Parts)
             frags[2] = new ButtonSettings(); // Button Settings
-            frags[3] = new PerformanceSettings(); // Performance Settings
+            //frags[3] = new PerformanceSettings(); // Performance Settings
         }
 
         @Override
@@ -129,7 +129,7 @@ public class LegacyParts extends SettingsPreferenceFragment {
                     getString(R.string.palp_settings_general_title), // General Settings
                     getString(R.string.display_settings_title), // Display Settings (Legacy Parts)
                     getString(R.string.button_settings), // Button Settings
-                    getString(R.string.performance_settings_title), // Performance Settings
+                    //getString(R.string.performance_settings_title), // Performance Settings
     };
         return titleString;
     }
