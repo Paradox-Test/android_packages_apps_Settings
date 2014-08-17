@@ -42,4 +42,6 @@
  <string name="build_status_info"> Displays the status of the rom, if NIGHTLY or is a MR version (Release) </string>
 
  <string name="header_category_interface">XPerience™</string>
+
+ <string name="performance_app">Performance</string>
 </resources>
