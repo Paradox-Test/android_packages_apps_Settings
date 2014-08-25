@@ -2043,4 +2043,10 @@
     <string name="user_image_take_photo" msgid="1280274310152803669">"拍照"</string>
     <string name="user_image_choose_photo" msgid="7940990613897477057">"从图库中选择照片"</string>
     <string name="regulatory_info_text" msgid="5623087902354026557"></string>
+
+ <string name="status_bar_network_traffic_style_disable">禁用</string>
+ <string name="status_bar_network_traffic_style_up">显示上传速度</string>
+ <string name="status_bar_network_traffic_style_down">显示下载速度</string>
+ <string name="status_bar_network_traffic_style_all">显示上传和下载速度</string>
+
 </resources>

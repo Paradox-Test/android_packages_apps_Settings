@@ -44,4 +44,10 @@
  <string name="header_category_interface">XPerience™</string>
 
  <string name="performance_app">XPerience™ Performance</string>
+
+ <string name="status_bar_network_traffic_style_disable">Disabled</string>
+ <string name="status_bar_network_traffic_style_up">Outgoing</string>
+ <string name="status_bar_network_traffic_style_down">Incoming</string>
+ <string name="status_bar_network_traffic_style_all">Outgoing and incoming</string>
+
 </resources>

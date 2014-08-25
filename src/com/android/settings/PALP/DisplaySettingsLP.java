@@ -53,12 +53,15 @@ public class DisplaySettingsLP extends SettingsPreferenceFragment implements
     private static final String KEY_WAKE_WHEN_PLUGGED_OR_UNPLUGGED = "wake_when_plugged_or_unplugged";
     private static final String KEY_SCREEN_GESTURE_SETTINGS = "touch_screen_gesture_settings";
     private static final String KEY_ADVANCED_SETTINGS = "oppo_advanced_settings";
+    private static final String STATUS_BAR_NETWORK_TRAFFIC_STYLE = "status_bar_network_traffic_style";
 
     private PreferenceScreen mScreenColorSettings;
 
     private CheckBoxPreference mAdaptiveBacklight;
     private CheckBoxPreference mTapToWake;
     private CheckBoxPreference mWakeWhenPluggedOrUnplugged;
+
+    private ListPreference mStatusBarNetworkTraffic;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -82,6 +85,12 @@ public class DisplaySettingsLP extends SettingsPreferenceFragment implements
             getPreferenceScreen().removePreference(mTapToWake);
             mTapToWake = null;
         }
+
+	 mStatusBarNetworkTraffic = (ListPreference) prefSet.findPreference(STATUS_BAR_NETWORK_TRAFFIC_STYLE);
+	 int networkTrafficStyle = Settings.System.getInt(resolver, Settings.System.STATUS_BAR_NETWORK_TRAFFIC_STYLE, 0);
+	 mStatusBarNetworkTraffic.setValue(String.valueOf(networkTrafficStyle));
+	 mStatusBarNetworkTraffic.setSummary(mStatusBarNetworkTraffic.getEntry());
+	 mStatusBarNetworkTraffic.setOnPreferenceChangeListener(this);
 
         mWakeWhenPluggedOrUnplugged =
                 (CheckBoxPreference) findPreference(KEY_WAKE_WHEN_PLUGGED_OR_UNPLUGGED);
@@ -195,6 +204,13 @@ public class DisplaySettingsLP extends SettingsPreferenceFragment implements
     
     @Override
     public boolean onPreferenceChange(Preference preference, Object objValue) {
+
+    if (preference == mStatusBarNetworkTraffic) {
+ 	 int networkTrafficStyle = Integer.valueOf((String) newValue);
+	 int index = mStatusBarNetworkTraffic.findIndexOfValue((String) newValue);
+	 Settings.System.putInt(resolver, Settings.System.STATUS_BAR_NETWORK_TRAFFIC_STYLE, networkTrafficStyle);
+	 mStatusBarNetworkTraffic.setSummary(mStatusBarNetworkTraffic.getEntries()[index]);}
+    
         return true;
     }    
 
