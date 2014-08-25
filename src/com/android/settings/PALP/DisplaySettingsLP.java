@@ -21,9 +21,11 @@ import android.content.ContentResolver;
 import android.content.pm.PackageManager;
 import android.content.pm.PackageManager.NameNotFoundException;
 import android.content.SharedPreferences;
+import android.database.ContentObserver;
 import android.os.Bundle;
 import android.os.UserHandle;
 import android.preference.CheckBoxPreference;
+import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.PreferenceManager;
 import android.preference.Preference.OnPreferenceChangeListener;
@@ -31,7 +33,11 @@ import android.preference.Preference.OnPreferenceClickListener;
 import android.preference.PreferenceScreen;
 import android.provider.Settings;
 import android.provider.Settings.SettingNotFoundException;
+import android.text.Spannable;
+import android.text.TextUtils;
+import android.text.format.DateFormat;
 import android.util.Log;
+import android.widget.EditText;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
@@ -63,11 +69,14 @@ public class DisplaySettingsLP extends SettingsPreferenceFragment implements
 
     private ListPreference mStatusBarNetworkTraffic;
 
+    private ContentObserver mSettingsObserver;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         addPreferencesFromResource(R.xml.display_settings_palp);
+        ContentResolver resolver = getActivity().getContentResolver();
 
         mScreenColorSettings = (PreferenceScreen) findPreference(KEY_SCREEN_COLOR_SETTINGS);
         if (!isPostProcessingSupported()) {
@@ -86,7 +95,7 @@ public class DisplaySettingsLP extends SettingsPreferenceFragment implements
             mTapToWake = null;
         }
 
-	 mStatusBarNetworkTraffic = (ListPreference) prefSet.findPreference(STATUS_BAR_NETWORK_TRAFFIC_STYLE);
+	 mStatusBarNetworkTraffic = (ListPreference) findPreference(STATUS_BAR_NETWORK_TRAFFIC_STYLE);
 	 int networkTrafficStyle = Settings.System.getInt(resolver, Settings.System.STATUS_BAR_NETWORK_TRAFFIC_STYLE, 0);
 	 mStatusBarNetworkTraffic.setValue(String.valueOf(networkTrafficStyle));
 	 mStatusBarNetworkTraffic.setSummary(mStatusBarNetworkTraffic.getEntry());
@@ -204,10 +213,11 @@ public class DisplaySettingsLP extends SettingsPreferenceFragment implements
     
     @Override
     public boolean onPreferenceChange(Preference preference, Object objValue) {
-
+	final ContentResolver resolver = getActivity().getContentResolver();
+	
     if (preference == mStatusBarNetworkTraffic) {
- 	 int networkTrafficStyle = Integer.valueOf((String) newValue);
-	 int index = mStatusBarNetworkTraffic.findIndexOfValue((String) newValue);
+ 	 int networkTrafficStyle = Integer.valueOf((String) objValue);
+	 int index = mStatusBarNetworkTraffic.findIndexOfValue((String) objValue);
 	 Settings.System.putInt(resolver, Settings.System.STATUS_BAR_NETWORK_TRAFFIC_STYLE, networkTrafficStyle);
 	 mStatusBarNetworkTraffic.setSummary(mStatusBarNetworkTraffic.getEntries()[index]);}
     
