@@ -17,9 +17,9 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         android:title="@string/about_settings">
 
-	<!--XPERIENCE HEADER-->
+	<!--XPERIENCE HEADER--
 	 <PreferenceScreen android:key="xpe_logo"
-			   android:layout="@layout/logo_xpe" />
+	android:layout="@layout/logo_xpe" />-->
 
 
         <PreferenceScreen android:key="paranoidota_settings"
@@ -172,9 +172,9 @@
                 android:title="@string/selinux_status"
                 android:summary="@string/selinux_status_enforcing"/>
 
-	 <!-- Builder info (klozz) -->
+	 <!-- Builder info (klozz) --
  	<Preference android:key="TeamMEX_xda"
 		    style="?android:preferenceInformationStyle"
-                    android:title="@string/builder_info_title"/>
+	      android:title="@string/builder_info_title"/>-->
 
 </PreferenceScreen>

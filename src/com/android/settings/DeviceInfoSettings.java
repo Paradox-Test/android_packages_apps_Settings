@@ -112,7 +112,7 @@ public class DeviceInfoSettings extends RestrictedSettingsFragment {
         findPreference(KEY_BUILD_NUMBER).setEnabled(true);
         findPreference(KEY_KERNEL_VERSION).setSummary(getFormattedKernelVersion());
         findPreference(KEY_PA_VERSION).setEnabled(true);
-        setValueSummary(KEY_PA_VERSION, "ro.xpe.version");
+        setValueSummary(KEY_PA_VERSION, "ro.par.version");
 	setValueSummary(KEY_BUILD_STATUS , "ro.build.status");
 	setValueSummary(KEY_GPU , "ro.harwdware.gpu");
 	setStringSummary(KEY_MOD_KLOZZ, "Carlos Jesús (Klozz-TeamMEX@XDA) ");
