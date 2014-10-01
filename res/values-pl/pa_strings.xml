@@ -112,7 +112,7 @@
   <string name="background_result_successful">Tło zostało zmienione</string>
   <string name="background_result_not_successful">Tło nie zostało zmienione</string>
   <string name="setting_lockscreen_background">Ustawianie tła</string>
-  <string name="pa_version">Wersja XPerience™-AOSP</string>
+  <string name="pa_version">Wersja PAradox</string>
   <string name="pa_version_default">Nieznany</string>
   <string name="themes_settings_title">Motywy</string>
   <string name="themepacks_settings_title">Paczki motywów</string>

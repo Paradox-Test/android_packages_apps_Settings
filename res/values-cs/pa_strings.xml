@@ -112,7 +112,7 @@
   <string name="background_result_successful">Pozadí změněno</string>
   <string name="background_result_not_successful">Pozadí nebylo změněno</string>
   <string name="setting_lockscreen_background">Nastavuji pozadí</string>
-  <string name="pa_version">Verze XPerience™-AOSP</string>
+  <string name="pa_version">Verze PAradox</string>
   <string name="pa_version_default">Neznámá</string>
   <string name="themes_settings_title">Témata</string>
   <string name="themepacks_settings_title">Balíky témat</string>

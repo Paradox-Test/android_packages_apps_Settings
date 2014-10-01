@@ -112,7 +112,7 @@
   <string name="background_result_successful">เปลี่ยนพื้นหลัง</string>
   <string name="background_result_not_successful">ไม่เปลี่ยนพื้นหลัง</string>
   <string name="setting_lockscreen_background">กำลังกำหนดพื้นหลัง</string>
-  <string name="pa_version">รุ่นของ XPerience™-AOSP</string>
+  <string name="pa_version">รุ่นของ PAradox</string>
   <string name="pa_version_default">ไม่ระบุ</string>
   <string name="themes_settings_title">ชุดรูปแบบ</string>
   <string name="themepacks_settings_title">แพ็คชุดรูปแบบ</string>

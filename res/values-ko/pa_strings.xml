@@ -113,7 +113,7 @@
   <string name="background_result_successful">배경화면이 변경되었습니다.</string>
   <string name="background_result_not_successful">배경화면이 변경되지 못했습니다.</string>
   <string name="setting_lockscreen_background">배경화면 설정</string>
-  <string name="pa_version">XPerience™-AOSP 버전</string>
+  <string name="pa_version">PAradox 버전</string>
   <string name="pa_version_default">알수없음</string>
   <string name="themes_settings_title">테마</string>
   <string name="themepacks_settings_title">테마 팩</string>

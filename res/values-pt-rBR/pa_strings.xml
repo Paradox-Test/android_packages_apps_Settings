@@ -112,7 +112,7 @@
   <string name="background_result_successful">Plano de fundo alterado</string>
   <string name="background_result_not_successful">Plano de fundo não alterado</string>
   <string name="setting_lockscreen_background">Aplicando plano de fundo</string>
-  <string name="pa_version">Versão XPerience™-AOSP</string>
+  <string name="pa_version">Versão PAradox</string>
   <string name="pa_version_default">Desconhecido</string>
   <string name="themes_settings_title">Temas</string>
   <string name="themepacks_settings_title">Pacotes de temas</string>

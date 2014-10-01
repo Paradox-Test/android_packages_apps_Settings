@@ -111,7 +111,7 @@
   <string name="background_wallpaper">خلفية مخصصة</string>
   <string name="background_result_successful">الخلفية تغيرت</string>
   <string name="background_result_not_successful">الخلفية لم تتغير</string>
-  <string name="pa_version">اصدار XPerience™-AOSP</string>
+  <string name="pa_version">اصدار PAradox</string>
   <string name="setting_lockscreen_background">تطبيق الخلفية</string>
   <string name="pa_version_default">غير معروف</string>
   <string name="themes_settings_title">المواضيع</string>

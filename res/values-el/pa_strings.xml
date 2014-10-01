@@ -112,7 +112,7 @@
   <string name="background_result_successful">Το φόντο άλλαξε</string>
   <string name="background_result_not_successful">Το φόντο δεν άλλαξε</string>
   <string name="setting_lockscreen_background">Εφαρμογή φόντου</string>
-  <string name="pa_version">Έκδοση XPerience™-AOSP</string>
+  <string name="pa_version">Έκδοση PAradox</string>
   <string name="pa_version_default">Άγνωστο</string>
   <string name="themes_settings_title">Θέματα</string>
   <string name="themepacks_settings_title">Πακέτα Θεμάτων</string>

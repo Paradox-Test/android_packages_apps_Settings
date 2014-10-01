@@ -111,7 +111,7 @@
   <string name="background_result_successful">Фонът е променен</string>
   <string name="background_result_not_successful">Фонът не е променен</string>
   <string name="setting_lockscreen_background">Прилагане на фон</string>
-  <string name="pa_version">XPerience™-AOSP версия</string>
+  <string name="pa_version">PAradox версия</string>
   <string name="pa_version_default">Неизвестен</string>
   <string name="themes_settings_title">Теми</string>
   <string name="themepacks_settings_title">Пакети с теми</string>

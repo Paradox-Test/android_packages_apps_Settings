@@ -112,7 +112,7 @@
   <string name="background_result_successful">背景を変更しました</string>
   <string name="background_result_not_successful">背景を変更しませんでした</string>
   <string name="setting_lockscreen_background">背景を適用する</string>
-  <string name="pa_version">XPerience™-AOSP バージョン</string>
+  <string name="pa_version">PAradox バージョン</string>
   <string name="pa_version_default">不明</string>
   <string name="themes_settings_title">テーマ</string>
   <string name="themepacks_settings_title">テーマパック</string>

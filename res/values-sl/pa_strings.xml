@@ -112,7 +112,7 @@
   <string name="background_result_successful">Sprememba ozadja</string>
   <string name="background_result_not_successful">Ozadje ni spremenjeno</string>
   <string name="setting_lockscreen_background">Nastavljanje ozadja</string>
-  <string name="pa_version">XPerience™-AOSP verzija</string>
+  <string name="pa_version">PAradox verzija</string>
   <string name="pa_version_default">Neznan</string>
   <string name="themes_settings_title">Teme</string>
   <string name="themepacks_settings_title">Paketi tem</string>

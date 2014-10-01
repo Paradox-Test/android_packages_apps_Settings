@@ -112,7 +112,7 @@
   <string name="background_result_successful">Arka plan değişti</string>
   <string name="background_result_not_successful">Arka plan değişmedi</string>
   <string name="setting_lockscreen_background">Arka plan uygulanıyor</string>
-  <string name="pa_version">XPerience™-AOSP sürümü</string>
+  <string name="pa_version">Paradox sürümü</string>
   <string name="pa_version_default">Bilinmiyor</string>
   <string name="themes_settings_title">Temalar</string>
   <string name="themepacks_settings_title">Tema Paketleri</string>

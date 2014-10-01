@@ -101,7 +101,7 @@
   <string name="low_battery_warning_policy_popup">Només quadre de diàleg</string>
   <string name="low_battery_warning_policy_notif">Només notificació</string>
   <string name="low_battery_warning_policy_sound">Només so</string>
-  <string name="pa_version">Versió de XPerience™-AOSP</string>
+  <string name="pa_version">Versió de PAradox</string>
   <string name="blacklist_button_title">Llista negra</string>
   <string name="peek_blacklist_label">Afegeix a la llista negra de Peek</string>
   <string name="floating_blacklist_label">Afegeix a la llista negra del mode flotant</string>

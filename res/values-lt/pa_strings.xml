@@ -112,7 +112,7 @@
   <string name="background_result_successful">Fonas pakeistas</string>
   <string name="background_result_not_successful">Fonas nepakeistas</string>
   <string name="setting_lockscreen_background">Taikyti foną</string>
-  <string name="pa_version">XPerience™-AOSP versija</string>
+  <string name="pa_version">PAradox versija</string>
   <string name="pa_version_default">Nežinomas</string>
   <string name="themes_settings_title">Temos</string>
   <string name="themepacks_settings_title">Temų Pakai</string>
