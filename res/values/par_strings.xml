@@ -2,6 +2,7 @@
 <!--
 
    Copyright 2014 The XPerience Project
+   Copyright 2014 Paradox
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
@@ -16,20 +17,12 @@
    limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    
-     <!-- Themes -->
-    <string name="theme_setting_title">The Dark Side XPerience</string>
-    <string name="theme_auto_mode_title">Switch theme</string>
-    <string name="theme_auto_mode_off">Manual</string>
-    <string name="theme_auto_mode_lightsensor">On light condition change</string>
-    <string name="theme_auto_mode_twilight">On daytime</string>
-    <string name="theme_auto_switch_mode_error">Automatic light condition change mode is enabled. Manual switching is not possible.</string>
-    
+   
     <!-- About device screen, CPU and RAM info. -->
     <string name="cpu_info">CPU</string>
     <string name="mem_info">Memory</string>
     
-        <!-- Change Log strings -->
+    <!-- Change Log strings -->
     <string name="changelog_title">View changelog</string>
     <string name="changelog_loading">Loading changelog...</string>
     <string name="changelog_error">Unable to load changelog</string>
@@ -41,15 +34,14 @@
  <string name="buildstatus"> Build Status </string>
  <string name="build_status_info"> Displays the status of the rom, if NIGHTLY or is a MR version (Release) </string>
 
- <string name="header_category_interface">XPerience™</string>
+ <string name="header_category_interface">Paradox</string>
 
- <string name="performance_app">XPerience™ Performance</string>
+ <string name="performance_app">Paradox Performance</string>
 
  <string name="status_bar_network_traffic_style_disable">Disabled</string>
  <string name="status_bar_network_traffic_style_up">Outgoing</string>
  <string name="status_bar_network_traffic_style_down">Incoming</string>
  <string name="status_bar_network_traffic_style_all">Outgoing and incoming</string>
  <string name="show_network_speed_title">Network speed</string>
-
 
 </resources>
