@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-
-   Copyright 2014 The XPerience Project
    Copyright 2014 Paradox
 
    Licensed under the Apache License, Version 2.0 (the "License");
@@ -29,7 +27,7 @@
     <string name="changelog_unknown">Unknown</string>
     <string name="changelog_version">Version</string>
 
- <!--XPERIENCE INFO-->
+ <!--PARADOX INFO-->
  <string name="builder_info_title">Developer</string>
  <string name="buildstatus"> Build Status </string>
  <string name="build_status_info"> Displays the status of the rom, if NIGHTLY or is a MR version (Release) </string>
