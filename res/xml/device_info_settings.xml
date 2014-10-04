@@ -13,14 +13,8 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         android:title="@string/about_settings">
-
-	<!--XPERIENCE HEADER--
-	 <PreferenceScreen android:key="xpe_logo"
-	android:layout="@layout/logo_xpe" />-->
-
 
         <PreferenceScreen android:key="paranoidota_settings"
                 android:title="@string/system_update_settings_list_item_title" 
@@ -171,10 +165,5 @@
                 style="?android:preferenceInformationStyle"
                 android:title="@string/selinux_status"
                 android:summary="@string/selinux_status_enforcing"/>
-
-	 <!-- Builder info (klozz) --
- 	<Preference android:key="TeamMEX_xda"
-		    style="?android:preferenceInformationStyle"
-	      android:title="@string/builder_info_title"/>-->
 
 </PreferenceScreen>
