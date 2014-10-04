@@ -13,39 +13,34 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
+
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         android:title="@string/about_settings">
 
         <PreferenceScreen android:key="paranoidota_settings"
                 android:title="@string/system_update_settings_list_item_title" 
                 android:summary="@string/system_update_settings_list_item_summary">
-            <intent android:action="android.intent.action.MAIN"
-                    android:targetPackage="com.paranoid.paranoidota"
-                    android:targetClass="com.paranoid.paranoidota.activities.SystemActivity" />
+				<intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.paranoid.paranoidota"
+                android:targetClass="com.paranoid.paranoidota.activities.SystemActivity" />
         </PreferenceScreen>
 
 
         <PreferenceScreen android:key="additional_system_update_settings"
-                          android:title="@string/additional_system_update_settings_list_item_title">
-            <intent android:action="android.intent.action.MAIN"
-                    android:targetPackage="@string/additional_system_update"
-                    android:targetClass="@string/additional_system_update_menu" />
+                android:title="@string/additional_system_update_settings_list_item_title">
+				<intent android:action="android.intent.action.MAIN"
+                android:targetPackage="@string/additional_system_update"
+                android:targetClass="@string/additional_system_update_menu" />
         </PreferenceScreen>
 
         <!-- Device status - launches activity -->
         <PreferenceScreen android:key="status_info"
                 android:title="@string/device_status" 
                 android:summary="@string/device_status_summary">
-            <intent android:action="android.intent.action.MAIN"
-                    android:targetPackage="com.android.settings"
-                    android:targetClass="com.android.settings.deviceinfo.Status" />
+				<intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.android.settings"
+                android:targetClass="com.android.settings.deviceinfo.Status" />
         </PreferenceScreen>
-
-        <!-- Change Log -->
-        <PreferenceScreen android:key="changelog"
-            android:title="@string/changelog_title"
-            android:fragment="com.android.settings.xperience.ChangeLog" >
-        </PreferenceScreen> 
 
         <!-- Legal Information -->
         <PreferenceScreen
@@ -53,28 +48,28 @@
                 android:title="@string/legal_information">
                     
             <!-- Note: The titles given here probably won't be used.  Instead, we programmatically
-                       fill the title with the label of the activity with the corresponding action.
-                       If there is not an activity for an action, the item will be removed from the
-                       list. -->
+                fill the title with the label of the activity with the corresponding action.
+                If there is not an activity for an action, the item will be removed from the
+                list. -->
 
             <!-- Copyright information -->
             <PreferenceScreen
-                    android:key="copyright"
-                    android:title="@string/copyright_title">
+                android:key="copyright"
+                android:title="@string/copyright_title">
                 <intent android:action="android.settings.COPYRIGHT" />
             </PreferenceScreen>
 
             <!-- License information -->
             <PreferenceScreen
-                    android:key="license"
-                    android:title="@string/license_title">
+                android:key="license"
+                android:title="@string/license_title">
                 <intent android:action="android.settings.LICENSE" />
             </PreferenceScreen>
 
             <!-- Terms and conditions -->
             <PreferenceScreen
-                    android:key="terms"
-                    android:title="@string/terms_title">
+                android:key="terms"
+                android:title="@string/terms_title">
                 <intent android:action="android.settings.TERMS" />
             </PreferenceScreen>
 
@@ -83,7 +78,7 @@
         <PreferenceScreen
                 android:key="safetylegal"
                 android:title="@string/settings_safetylegal_title">
-            <intent android:action="android.settings.SAFETY" />
+				<intent android:action="android.settings.SAFETY" />
         </PreferenceScreen>
 
         <!-- Contributors -->
@@ -91,14 +86,14 @@
         <PreferenceScreen
                 android:key="contributors"
                 android:title="@string/contributors_title">
-            <intent android:action="android.settings.TEAM" />
+				<intent android:action="android.settings.TEAM" />
         </PreferenceScreen>
         -->
 
         <PreferenceScreen
                 android:key="regulatory_info"
                 android:title="@string/regulatory_information">
-            <intent android:action="android.settings.SHOW_REGULATORY_INFO" />
+				<intent android:action="android.settings.SHOW_REGULATORY_INFO" />
         </PreferenceScreen>
 
         <!-- Device hardware model -->
@@ -136,7 +131,8 @@
                 style="?android:preferenceInformationStyle"
                 android:title="@string/kernel_version"
                 android:summary="@string/device_info_default"/>
-        <!-- Device cpu info -->
+
+		<!-- Device cpu info -->
         <Preference android:key="device_cpu"
                 style="?android:preferenceInformationStyle"
                 android:title="@string/cpu_info"
@@ -153,12 +149,12 @@
                 style="?android:preferenceInformationStyle"
                 android:title="@string/build_number"
                 android:summary="@string/device_info_default"/>
-
+				
 	 <!--XPerience Status-->
- 	<Preference android:key="build_status"
-		    style="?android:preferenceInformationStyle"
-                    android:title="@string/buildstatus"
-                    android:summary="@string/device_info_default"/>
+		<Preference android:key="build_status"
+				style="?android:preferenceInformationStyle"
+                android:title="@string/buildstatus"
+                android:summary="@string/device_info_default"/>
 
         <!-- SELinux status information -->
         <Preference android:key="selinux_status"
