@@ -100,18 +100,6 @@
         android:fragment="com.android.settings.ThemeSettings"
         android:icon="@drawable/prd_ic_themepacks" />
 
-    <!--XPerience Performance APP-->
-   <header
-	android:id="@+id/performance"	
-	android:icon="@drawable/ic_settings_performance"
-        android:title="@string/performance_app">
-	<intent
-               android:action="android.intent.action.MAIN"   
-               android:targetPackage="com.klozz.performance"
-               android:targetClass="com.klozz.performance.MainActivity"/>
-    </header>
-
-
     <!-- DEVICE -->
     <header android:id="@+id/device_section"
         android:title="@string/header_category_device" />
@@ -279,10 +267,10 @@
 
     <!-- About Device -->
     <header
-        settings:includeXmlForSearch="@xml/device_info_settings"
         android:id="@+id/about_settings"
         android:fragment="com.android.settings.DeviceInfoSettings"
         android:icon="@drawable/ic_settings_about"
         android:title="@string/about_settings" />
+
 
 </preference-headers>
