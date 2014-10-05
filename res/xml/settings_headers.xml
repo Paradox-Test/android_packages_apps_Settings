@@ -80,10 +80,6 @@
         android:fragment="com.android.settings.WirelessSettings"
         android:icon="@drawable/empty_icon" />
 
-    <!-- INTERFACE -->
-    <header android:id="@+id/interface_section"
-        android:title="@string/header_category_interface" />
-
     <!-- Legacy Parts -->
     <header
         android:id="@+id/legacy_parts"
@@ -99,6 +95,10 @@
         android:breadCrumbTitle="@string/themes_settings_title"
         android:fragment="com.android.settings.ThemeSettings"
         android:icon="@drawable/prd_ic_themepacks" />
+
+    <!-- DEVICE -->
+    <header android:id="@+id/device_section"
+        android:title="@string/header_category_device" />
 
     <!-- Home -->
     <header
