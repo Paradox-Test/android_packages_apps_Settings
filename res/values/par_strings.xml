@@ -17,26 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
    
-    <!-- About device screen, CPU and RAM info. -->
-    <string name="cpu_info">CPU</string>
-    <string name="mem_info">Memory</string>
-    
-    <!-- Change Log strings -->
-    <string name="changelog_title">View changelog</string>
-    <string name="changelog_loading">Loading changelog...</string>
-    <string name="changelog_error">Unable to load changelog</string>
-    <string name="changelog_unknown">Unknown</string>
-    <string name="changelog_version">Version</string>
-
- <!--PARADOX INFO-->
- <string name="builder_info_title">Developer</string>
- <string name="buildstatus"> Build Status </string>
- <string name="build_status_info"> Displays the status of the rom, if NIGHTLY or is a MR version (Release) </string>
-
- <string name="header_category_interface">Paradox</string>
-
- <string name="performance_app">Paradox Performance</string>
-
+    <!-- extra strings -->
  <string name="status_bar_network_traffic_style_disable">Disabled</string>
  <string name="status_bar_network_traffic_style_up">Outgoing</string>
  <string name="status_bar_network_traffic_style_down">Incoming</string>
